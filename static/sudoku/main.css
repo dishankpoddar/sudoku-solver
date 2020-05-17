@@ -1,0 +1,66 @@
+body { background: #ffffff; color: #111111; margin-top: 5rem; }
+
+.bg-black { background-color: #161716; }
+
+.center { display: block; margin-left: auto; margin-right: auto; text-align: center; }
+
+.close { display: none; }
+
+.close_button { color: black; }
+
+.btn-default { background-color: #111111; color: #fafafa; }
+
+.drag_area { background-color: lightgray; opacity: 0.75; height: 100px; border: 4px dashed #000000; }
+
+.drag_area p { width: 100%; height: 100%; text-align: center; line-height: 90px; color: #000000; font-family: Arial; }
+
+.drag_area input { position: absolute; margin: 0; padding: 0; width: auto; height: 100%; outline: none; opacity: 0; }
+
+#parent { position: relative; width: 288px; height: 288px; }
+
+.box0 { position: absolute; width: 288px; left: 0px; top: 0px; border-top: 3px solid #000000; height: 35px; box-sizing: border-box; }
+
+.inbox0 { position: absolute; width: 32px; height: 32px; left: 0px; top: 0px; text-align: center; border: 1px solid #000000; border-left: 1.5px solid #000000; border-left: 3px solid #000000; box-sizing: border-box; }
+
+.box1 { position: absolute; width: 288px; left: 0px; top: 32px; height: 34px; box-sizing: border-box; }
+
+.inbox1 { position: absolute; width: 32px; height: 32px; left: 32px; top: 0px; text-align: center; border: 1px solid #000000; box-sizing: border-box; }
+
+.box2 { position: absolute; width: 288px; left: 0px; top: 64px; border-bottom: 1.5px solid #000000; height: 34.5px; box-sizing: border-box; }
+
+.inbox2 { position: absolute; width: 32px; height: 32px; left: 64px; top: 0px; text-align: center; border: 1px solid #000000; border-right: 1.5px solid #000000; box-sizing: border-box; }
+
+.box3 { position: absolute; width: 288px; left: 0px; top: 96px; border-top: 1.5px solid #000000; height: 34.5px; box-sizing: border-box; }
+
+.inbox3 { position: absolute; width: 32px; height: 32px; left: 96px; top: 0px; text-align: center; border: 1px solid #000000; border-left: 1.5px solid #000000; box-sizing: border-box; }
+
+.box4 { position: absolute; width: 288px; left: 0px; top: 128px; height: 34px; box-sizing: border-box; }
+
+.inbox4 { position: absolute; width: 32px; height: 32px; left: 128px; top: 0px; text-align: center; border: 1px solid #000000; box-sizing: border-box; }
+
+.box5 { position: absolute; width: 288px; left: 0px; top: 160px; border-bottom: 1.5px solid #000000; height: 34.5px; box-sizing: border-box; }
+
+.inbox5 { position: absolute; width: 32px; height: 32px; left: 160px; top: 0px; text-align: center; border: 1px solid #000000; border-right: 1.5px solid #000000; box-sizing: border-box; }
+
+.box6 { position: absolute; width: 288px; left: 0px; top: 192px; border-top: 1.5px solid #000000; height: 34.5px; box-sizing: border-box; }
+
+.inbox6 { position: absolute; width: 32px; height: 32px; left: 192px; top: 0px; text-align: center; border: 1px solid #000000; border-left: 1.5px solid #000000; box-sizing: border-box; }
+
+.box7 { position: absolute; width: 288px; left: 0px; top: 224px; height: 34px; box-sizing: border-box; }
+
+.inbox7 { position: absolute; width: 32px; height: 32px; left: 224px; top: 0px; text-align: center; border: 1px solid #000000; box-sizing: border-box; }
+
+.box8 { position: absolute; width: 288px; left: 0px; top: 256px; border-bottom: 3px solid #000000; height: 35px; box-sizing: border-box; }
+
+.inbox8 { position: absolute; width: 32px; height: 32px; left: 256px; top: 0px; text-align: center; border: 1px solid #000000; border-right: 1.5px solid #000000; border-right: 3px solid #000000; box-sizing: border-box; }
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+
+/* Firefox */
+input[type=number] { -moz-appearance: textfield; }
+
+.preset { background-color: #3CBC8D; }
+
+#yourSudokuImage { height: 288px; width: 288px; }
+
+/*# sourceMappingURL=main.css.map */

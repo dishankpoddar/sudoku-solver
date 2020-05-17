@@ -1,0 +1,25 @@
+
+/*@for $i from 1 through 3{
+  @for $j from 1 through 3{
+    #box#{3*($i - 1)+$j - 1}{
+    position: absolute;
+    width: #{$size/3 + 2*$border-out}px;
+    height: #{$size/3 + 2*$border-out   }px;
+    left: #{($j - 1)*($size/3)}px;
+    top: #{($i - 1)*($size/3)}px;
+
+    border: #{$border-out}px solid #000000;
+    box-sizing: border-box;
+    }
+    .inbox#{3*($i - 1)+$j - 1}{
+      position: absolute;
+      width: #{$size/9}px;
+      height: #{$size/9}px;
+      left: #{($j - 1)*($size/9)}px;
+      top: #{($i - 1)*($size/9)}px;
+      text-align: center;
+      border: #{$border-in}px solid #000000;
+      box-sizing: border-box;
+    }
+  }
+}*/
